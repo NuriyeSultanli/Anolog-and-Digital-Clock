@@ -142,6 +142,7 @@ body{
     justify-content: center;
     align-items: center;
     font-weight: 500;
+    color:#fff;
 }
 #time div:nth-child(1)::after
 {
@@ -165,4 +166,87 @@ body{
         opacity: 0;
     }
 
+}
+@media (max-width: 480px) {
+    .clock {
+        width: 250px;
+        height: 350px;
+    }
+
+    .numbers {
+        width: 220px;
+        height: 220px;
+    }
+
+    .numbers span {
+        font-size: 0.9em;
+    }
+
+    #time {
+        bottom: 15px;
+        font-size: 1.2em;
+        padding: 6px 10px;
+    }
+
+    #time div {
+        width: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .numbers .circle {
+        width: 180px;
+        height: 180px;
+    }
+
+    .numbers .circle#min {
+        width: 150px;
+        height: 150px;
+    }
+
+    .numbers .circle#hrs {
+        width: 120px;
+        height: 120px;
+    }
+
+    .numbers .circle i {
+        width: 4px;
+    }
+
+    .numbers .circle#sec i {
+        width: 2px;
+    }
+
+    .numbers .circle#min i {
+        width: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    .numbers .circle {
+        width: 140px;
+        height: 140px;
+    }
+
+    .numbers .circle#min {
+        width: 120px;
+        height: 120px;
+    }
+
+    .numbers .circle#hrs {
+        width: 100px;
+        height: 100px;
+    }
+
+    .numbers .circle i {
+        width: 3px;
+    }
+
+    .numbers .circle#sec i {
+        width: 1.5px;
+    }
+
+    .numbers .circle#min i {
+        width: 2px;
+    }
 }
