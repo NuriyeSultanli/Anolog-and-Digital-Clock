@@ -176,6 +176,12 @@ body{
     .numbers {
         width: 220px;
         height: 220px;
+        top:20px;
+    }
+    .numbers .circle:before{
+        top:-4px;
+        width:7.2px;
+        height:7.2px;
     }
 
     .numbers span {
@@ -194,19 +200,19 @@ body{
 }
 
 @media (max-width: 768px) {
-    .numbers .circle {
-        width: 180px;
-        height: 180px;
+    .numbers.circle {
+        width: 260px;
+        height: 260px;
     }
 
     .numbers .circle#min {
-        width: 150px;
-        height: 150px;
+        width: 220px;
+        height: 220px;
     }
 
     .numbers .circle#hrs {
-        width: 120px;
-        height: 120px;
+        width: 170px;
+        height: 170px;
     }
 
     .numbers .circle i {
